@@ -1,0 +1,146 @@
+a {
+    text-decoration: none;
+}
+.header_all {
+    width: 100%;
+    background-color: #333333;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.header_all ul li {
+    float: left;
+    padding: 9px 12px;
+    text-align: center;
+}
+.header_all ul li a {
+    color: #cccccc;
+    font-size: 14px;
+}
+.header_all ul li a .logo-small {
+    width: 55px;
+    height: 14px;
+    float: left;
+    margin: 4px 0;
+    margin-right: 10px;
+    background-color: red;
+    background: url("../images/header-index-top-bar110.png") no-repeat top;
+    background-size: 55px;
+}
+.header_all ul li i {
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border: 4px dashed transparent;
+    border-top: 6px solid #ccc;
+    margin: 10px auto 2px auto;
+}
+.header_all ul li:hover  {
+    background-color: black;
+    cursor: pointer;
+}
+.header_all ul li:hover a {
+    color: white;
+}
+.header_all ul li:hover .logo-small {
+    background: url("../images/header-index-top-bar110.png") no-repeat bottom;
+    background-size: 55px;
+}
+.header_all ul li:hover i {
+    border-top: 6px solid white;
+}
+.header_all .more {
+    width: 70px;
+    height: 80px;
+    background-color: #333333;
+    position: absolute;
+    top: 40px;
+    left: 443px;
+    display: none;
+}
+.header_all .more .down li {
+    height: 40px;
+    width: 70px;
+    padding: 0;
+    line-height: 40px;
+}
+.header_all .log {
+    float: right;
+}
+.header_all .log .QQ,.header_all .QQ .wechit ul li,.header_all .log .sand,.header_all .log .sand .sand_to li {
+    margin: 0;
+    padding: 0;
+}
+.header_all .log .QQ {
+    height: 40px;
+    width: 70px;
+}
+.header_all .log .QQ a {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+.header_all .log .QQ a img,.header_all .log .sand a img {
+    display: block;
+    margin: 2px auto -4px auto;
+}
+.header_all .QQ .wechit {
+    width: 70px;
+    height: 80px;
+    display: none;
+}
+.header_all .QQ .wechit ul li {
+    width: 70px;
+    height: 40px;
+}
+.header_all .QQ .wechit ul li:nth-child(1) {
+    background-color: #5d5d5d;
+}
+.header_all .QQ .wechit ul li:nth-child(2) {
+    background-color: grey;
+}
+.header_all .log .sand {
+    width: 70px;
+    height: 40px;
+}
+.header_all .log .sand a {
+    color: white;
+}
+.header_all .log li:nth-child(4) {
+    background-color: #59c3d1;
+}
+.header_all .log li:nth-child(5) {
+    background-color: #ffa859;
+}
+.header_all .log li:nth-child(6) {
+    background-color: #fe5761;
+}
+.header_all .log .sand .sand_to {
+    width: 70px;
+    height: 120px;
+    display: none;
+}
+.header_all .log .sand .sand_to li {
+    width: 70px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    line-height: 40px;
+}
+.header_all .log .sand .sand_to ul li:nth-child(1) {
+    background-color: #8ecdd8;
+}
+.header_all .log .sand .sand_to ul li:nth-child(2) {
+    background-color: #a6dfea;
+}
+.header_all .log .sand .sand_to ul li:nth-child(3) {
+    background-color: #adecf8;
+}
+.header_all .log .sand_three .ewm {
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    display: none;
+}

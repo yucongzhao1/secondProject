@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" href="css/style_yys.css" rel="stylesheet">
+    <link type="text/css" href="css/head_all.css" rel="stylesheet">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/js_yys.js"></script>
+</head>
+<body>
+<div class="off"><img src="images/gotop.png"></div>
+    <div class="wrap">
+        <div class="header_all">
+            <ul>
+                <li>
+                    <a href="index-sy.html" class="header-first">
+                        <div class="logo-small"></div>
+                        首页
+                    </a>
+                </li>
+                <li><a href="recipe_yys.html">菜谱</a></li>
+                <li><a href="cure_page.html">烘焙</a></li>
+                <li><a href="zhenxuan_fby.html">珍选</a></li>
+                <li><a href="index-ysc.html">健康</a></li>
+                <li><a href="index.html">专题</a></li>
+                <li><a href="d1wmj.html">社区</a></li>
+                <li><a href="d3wmj.html">活动</a></li>
+                <li class="more-on">
+                    <a href="#"><i></i></a>
+                    <div class="more">
+                        <ul class="down">
+                            <li><a href="cure_page.html">烘焙</a></li>
+                            <li><a href="mother-sy.html">妈妈派</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="log">
+                <li><a href="login-sy.html">登录</a></li>
+                <li><a href="log-sy.html">注册</a></li>
+                <li class="QQ">
+                    <a href="#"><img src="img/nir1.png" alt="" width="20px"/>QQ登录</a>
+                    <div class="wechit">
+                        <ul>
+                            <li><a href="#"><img src="img/nir2.png" alt="" width="20px"/>微博登录</a></li>
+                            <li><a href="#"><img src="img/nir3.png" alt="" width="20px"/>微信登录</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="sand sand_one">
+                    <a href="#"><img src="img/nr1.png" alt="" width="20px"/>发布</a>
+                    <div class="sand_to">
+                        <ul>
+                            <li>发菜谱</li>
+                            <li>发话题</li>
+                            <li>发日志</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="sand  sand_two"><a href="#"><img src="img/nr2.png" alt="" width="20px"/>签到有礼</a></li>
+                <li class="sand sand_three">
+                    <a href="#"><img src="img/nr3.png" alt="" width="20px"/>客户端</a>
+                    <img src="img/msc_app.png" alt="" width="100px" class="ewm"/>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="nav">
+                <div class="title"><a href="index-sy.html "><img src="images/logo.png"> </a></div>
+                <div class="recipe"><a href="recipe_yys.html">菜谱</a> </div>
+                <div class="sub_title">
+                    <ul>
+                        <li >
+                            <a href="recipe_yys.html">菜单首页<i></i><b></b></a>
+                        </li>
+                        <li><a href="type_yys.html">分类<i></i><b></b></a></li>
+                        <li><a href="menu_yys.html">菜单<i></i><b></b></a></li>
+                        <li class="current"><a href="show_top_yys.html">排行<i></i><b></b></a></li>
+                        <li><a href="#">食材<i></i><b></b></a></li>
+                        <li><a href="#">食疗食补<i></i><b></b></a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="text">
+                    <a href="#">搜索</a>
+                </div>
+            </div>
+            <div class="sub_sub_title">
+                <ul>
+                    <li class="current"><a href="#">一周热门</a></li>
+                    <li><a href="#">当季最热</a></li>
+                    <li><a href="#">人气菜肴</a></li>
+                    <li><a href="#">明星菜谱</a></li>
+                    <li><a href="#">食神菜单</a></li>
+                </ul>
+            </div>
+            <div class="show">
+                <div class="left">
+                    <ul>
+                        <!--<li class="before">上一页</li>-->
+                        <li class="now">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <!--<li class="after">下一页</li>-->
+                    </ul>
+                    <div class="new_list" id="cur">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_01.jpg"></div>
+                                    <h3>蒸鸡翅金针菇</h3>
+                                    <p class="subline">Meggy跳舞的苹果</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_02.jpg"></div>
+                                    <h3>蚝油烧茄子</h3>
+                                    <p class="subline">零下一度0511</p>
+                                    <p class="subcontent">原料：黑皮茄子、姜、蒜、葱、蚝油、生抽、盐、鸡精、生粉。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_03.jpg"></div>
+                                    <h3>煎茄饼</h3>
+                                    <p class="subline">青葱食味</p>
+                                    <p class="subcontent">原料：茄子、鸡蛋、面粉、盐、白胡椒粉、水、香菜、小米辣、蒜、生抽。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_04.jpg"></div>
+                                    <h3>懒人披萨</h3>
+                                    <p class="subline">?薄荷糖的味道?</p>
+                                    <p class="subcontent"> 原料：吐司、甜椒、什锦蔬菜、马苏里拉芝士、火腿肉、番茄酱、油、盐。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_05.jpg"></div>
+                                    <h3>油爆虾</h3>
+                                    <p class="subline"> 香香的小厨房</p>
+                                    <p class="subcontent">原料：鲜虾、料酒、生抽、蚝油、白糖、葱、姜、蒜末。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_06.jpg"></div>
+                                    <h3>酸辣粉</h3>
+                                    <p class="subline">墨儿Moer🌸</p>
+                                    <p class="subcontent"> 原料：红薯粉条、炸花生米、蒜、辣椒油、葱、蚝油、生抽、醋、糖、十三香、香油、芝麻、油。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_07.jpg"></div>
+                                    <h3>万能家庭卤汁，能卤全世界</h3>
+                                    <p class="subline">小美的美食谱</p>
+                                    <p class="subcontent">原料：葱、小米椒、蒜、油、姜、陈皮、草果、八角、花椒、桂皮、沙姜、丁香、小茴香、甘草、香叶、酱油、料酒、干辣椒、冰糖、水。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_08.jpg"></div>
+                                    <h3>孜然土豆</h3>
+                                    <p class="subline">一溪月</p>
+                                    <p class="subcontent"> 原料：土豆、小米椒、香菜、蒜片、麻椒、干红辣椒、玉米油、盐、孜然粉、鸡精。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_09.jpg"></div>
+                                    <h3>葱油拌面</h3>
+                                    <p class="subline">墨儿Moer?</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="new_list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_06.jpg"></div>
+                                    <h3>酸辣粉</h3>
+                                    <p class="subline">墨儿Moer🌸</p>
+                                    <p class="subcontent"> 原料：红薯粉条、炸花生米、蒜、辣椒油、葱、蚝油、生抽、醋、糖、十三香、香油、芝麻、油。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_07.jpg"></div>
+                                    <h3>万能家庭卤汁，能卤全世界</h3>
+                                    <p class="subline">小美的美食谱</p>
+                                    <p class="subcontent">原料：葱、小米椒、蒜、油、姜、陈皮、草果、八角、花椒、桂皮、沙姜、丁香、小茴香、甘草、香叶、酱油、料酒、干辣椒、冰糖、水。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_08.jpg"></div>
+                                    <h3>孜然土豆</h3>
+                                    <p class="subline">一溪月</p>
+                                    <p class="subcontent"> 原料：土豆、小米椒、香菜、蒜片、麻椒、干红辣椒、玉米油、盐、孜然粉、鸡精。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_09.jpg"></div>
+                                    <h3>葱油拌面</h3>
+                                    <p class="subline">墨儿Moer?</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_01.jpg"></div>
+                                    <h3>蒸鸡翅金针菇</h3>
+                                    <p class="subline">Meggy跳舞的苹果</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_02.jpg"></div>
+                                    <h3>蚝油烧茄子</h3>
+                                    <p class="subline">零下一度0511</p>
+                                    <p class="subcontent">原料：黑皮茄子、姜、蒜、葱、蚝油、生抽、盐、鸡精、生粉。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_03.jpg"></div>
+                                    <h3>煎茄饼</h3>
+                                    <p class="subline">青葱食味</p>
+                                    <p class="subcontent">原料：茄子、鸡蛋、面粉、盐、白胡椒粉、水、香菜、小米辣、蒜、生抽。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_04.jpg"></div>
+                                    <h3>懒人披萨</h3>
+                                    <p class="subline">?薄荷糖的味道?</p>
+                                    <p class="subcontent"> 原料：吐司、甜椒、什锦蔬菜、马苏里拉芝士、火腿肉、番茄酱、油、盐。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_05.jpg"></div>
+                                    <h3>油爆虾</h3>
+                                    <p class="subline"> 香香的小厨房</p>
+                                    <p class="subcontent">原料：鲜虾、料酒、生抽、蚝油、白糖、葱、姜、蒜末。</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="new_list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_01.jpg"></div>
+                                    <h3>蒸鸡翅金针菇</h3>
+                                    <p class="subline">Meggy跳舞的苹果</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_06.jpg"></div>
+                                    <h3>酸辣粉</h3>
+                                    <p class="subline">墨儿Moer🌸</p>
+                                    <p class="subcontent"> 原料：红薯粉条、炸花生米、蒜、辣椒油、葱、蚝油、生抽、醋、糖、十三香、香油、芝麻、油。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_07.jpg"></div>
+                                    <h3>万能家庭卤汁，能卤全世界</h3>
+                                    <p class="subline">小美的美食谱</p>
+                                    <p class="subcontent">原料：葱、小米椒、蒜、油、姜、陈皮、草果、八角、花椒、桂皮、沙姜、丁香、小茴香、甘草、香叶、酱油、料酒、干辣椒、冰糖、水。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_08.jpg"></div>
+                                    <h3>孜然土豆</h3>
+                                    <p class="subline">一溪月</p>
+                                    <p class="subcontent"> 原料：土豆、小米椒、香菜、蒜片、麻椒、干红辣椒、玉米油、盐、孜然粉、鸡精。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_09.jpg"></div>
+                                    <h3>葱油拌面</h3>
+                                    <p class="subline">墨儿Moer?</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_02.jpg"></div>
+                                    <h3>蚝油烧茄子</h3>
+                                    <p class="subline">零下一度0511</p>
+                                    <p class="subcontent">原料：黑皮茄子、姜、蒜、葱、蚝油、生抽、盐、鸡精、生粉。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_03.jpg"></div>
+                                    <h3>煎茄饼</h3>
+                                    <p class="subline">青葱食味</p>
+                                    <p class="subcontent">原料：茄子、鸡蛋、面粉、盐、白胡椒粉、水、香菜、小米辣、蒜、生抽。</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_05.jpg"></div>
+                                    <h3>油爆虾</h3>
+                                    <p class="subline"> 香香的小厨房</p>
+                                    <p class="subcontent">原料：鲜虾、料酒、生抽、蚝油、白糖、葱、姜、蒜末。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_04.jpg"></div>
+                                    <h3>懒人披萨</h3>
+                                    <p class="subline">?薄荷糖的味道?</p>
+                                    <p class="subcontent"> 原料：吐司、甜椒、什锦蔬菜、马苏里拉芝士、火腿肉、番茄酱、油、盐。</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="new_list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_01.jpg"></div>
+                                    <h3>蒸鸡翅金针菇</h3>
+                                    <p class="subline">Meggy跳舞的苹果</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_02.jpg"></div>
+                                    <h3>蚝油烧茄子</h3>
+                                    <p class="subline">零下一度0511</p>
+                                    <p class="subcontent">原料：黑皮茄子、姜、蒜、葱、蚝油、生抽、盐、鸡精、生粉。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_03.jpg"></div>
+                                    <h3>煎茄饼</h3>
+                                    <p class="subline">青葱食味</p>
+                                    <p class="subcontent">原料：茄子、鸡蛋、面粉、盐、白胡椒粉、水、香菜、小米辣、蒜、生抽。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_04.jpg"></div>
+                                    <h3>懒人披萨</h3>
+                                    <p class="subline">?薄荷糖的味道?</p>
+                                    <p class="subcontent"> 原料：吐司、甜椒、什锦蔬菜、马苏里拉芝士、火腿肉、番茄酱、油、盐。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_05.jpg"></div>
+                                    <h3>油爆虾</h3>
+                                    <p class="subline"> 香香的小厨房</p>
+                                    <p class="subcontent">原料：鲜虾、料酒、生抽、蚝油、白糖、葱、姜、蒜末。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_06.jpg"></div>
+                                    <h3>酸辣粉</h3>
+                                    <p class="subline">墨儿Moer🌸</p>
+                                    <p class="subcontent"> 原料：红薯粉条、炸花生米、蒜、辣椒油、葱、蚝油、生抽、醋、糖、十三香、香油、芝麻、油。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_07.jpg"></div>
+                                    <h3>万能家庭卤汁，能卤全世界</h3>
+                                    <p class="subline">小美的美食谱</p>
+                                    <p class="subcontent">原料：葱、小米椒、蒜、油、姜、陈皮、草果、八角、花椒、桂皮、沙姜、丁香、小茴香、甘草、香叶、酱油、料酒、干辣椒、冰糖、水。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_08.jpg"></div>
+                                    <h3>孜然土豆</h3>
+                                    <p class="subline">一溪月</p>
+                                    <p class="subcontent"> 原料：土豆、小米椒、香菜、蒜片、麻椒、干红辣椒、玉米油、盐、孜然粉、鸡精。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_09.jpg"></div>
+                                    <h3>葱油拌面</h3>
+                                    <p class="subline">墨儿Moer?</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="new_list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_06.jpg"></div>
+                                    <h3>酸辣粉</h3>
+                                    <p class="subline">墨儿Moer🌸</p>
+                                    <p class="subcontent"> 原料：红薯粉条、炸花生米、蒜、辣椒油、葱、蚝油、生抽、醋、糖、十三香、香油、芝麻、油。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_07.jpg"></div>
+                                    <h3>万能家庭卤汁，能卤全世界</h3>
+                                    <p class="subline">小美的美食谱</p>
+                                    <p class="subcontent">原料：葱、小米椒、蒜、油、姜、陈皮、草果、八角、花椒、桂皮、沙姜、丁香、小茴香、甘草、香叶、酱油、料酒、干辣椒、冰糖、水。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_08.jpg"></div>
+                                    <h3>孜然土豆</h3>
+                                    <p class="subline">一溪月</p>
+                                    <p class="subcontent"> 原料：土豆、小米椒、香菜、蒜片、麻椒、干红辣椒、玉米油、盐、孜然粉、鸡精。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_09.jpg"></div>
+                                    <h3>葱油拌面</h3>
+                                    <p class="subline">墨儿Moer?</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_01.jpg"></div>
+                                    <h3>蒸鸡翅金针菇</h3>
+                                    <p class="subline">Meggy跳舞的苹果</p>
+                                    <p class="subcontent">原料：鸡翅中、金针菇、生抽、蚝油、黄酒、盐、姜、淀粉、香葱、红辣椒。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_02.jpg"></div>
+                                    <h3>蚝油烧茄子</h3>
+                                    <p class="subline">零下一度0511</p>
+                                    <p class="subcontent">原料：黑皮茄子、姜、蒜、葱、蚝油、生抽、盐、鸡精、生粉。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_03.jpg"></div>
+                                    <h3>煎茄饼</h3>
+                                    <p class="subline">青葱食味</p>
+                                    <p class="subcontent">原料：茄子、鸡蛋、面粉、盐、白胡椒粉、水、香菜、小米辣、蒜、生抽。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_04.jpg"></div>
+                                    <h3>懒人披萨</h3>
+                                    <p class="subline">?薄荷糖的味道?</p>
+                                    <p class="subcontent"> 原料：吐司、甜椒、什锦蔬菜、马苏里拉芝士、火腿肉、番茄酱、油、盐。</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="picture"><img src="images/pic_05.jpg"></div>
+                                    <h3>油爆虾</h3>
+                                    <p class="subline"> 香香的小厨房</p>
+                                    <p class="subcontent">原料：鲜虾、料酒、生抽、蚝油、白糖、葱、姜、蒜末。</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <h2>热门菜单</h2>
+                    <ul class="first">
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_01.jpg">
+                                <h3>有馅饼才叫早餐呢</h3>
+                                <p>11篇日记</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_08.jpg">
+                                <h3>丸子丸子你别跑</h3>
+                                <p>9篇日记</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_04.jpg">
+                                <h3>如花美菜，宴客有派</h3>
+                                <p>14篇日记</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_07.jpg">
+                                <h3>招牌烧鸡</h3>
+                                <p>12篇日记</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_02.jpg">
+                                <h3>收获你的味蕾</h3>
+                                <p>21篇日记</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_08.jpg">
+                                <h3>山东大盘鸡</h3>
+                                <p>18篇日记</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_04.jpg">
+                                <h3>建议披萨</h3>
+                                <p>11篇日记</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <h2 class="sec">一周热门菜谱</h2>
+                    <ul class="second">
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_01.jpg">
+                                <h3>水煮肉片</h3>
+                                <p>8人收藏</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_07.jpg">
+                                <h3>轰炸鱿鱼</h3>
+                                <p>20人收藏</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_09.jpg">
+                                <h3>粉条猪肉</h3>
+                                <p>10人收藏</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_05.jpg">
+                                <h3>锅包肉</h3>
+                                <p>7人收藏</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_02.jpg">
+                                <h3>招牌肘子</h3>
+                                <p>10人收藏</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_07.jpg">
+                                <h3>蘑菇肉片</h3>
+                                <p>8人收藏</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic_01.jpg">
+                                <h3>生煎包</h3>
+                                <p>19人收藏</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot_left">
+                <a href="#"><h3>美食天下 - 让吃更美好！</h3></a>
+                <a href="#">菜谱 </a>·<a href="#">食材 </a>·<a href="#">魔方 </a>·<a href="#">关于我们 </a>·<a href="#">联系我们 </a>·
+                <a href="#">加入我们 </a>·<a href="#">服务声明 </a>·<a href="#">友情链接 </a>·<a href="#">网站地图 </a>·<a href="#">移动应用</a>
+                <p>© 2004-2019 美食天下 保留所有权利 - 京ICP证090244号</p>
+            </div>
+            <div class="foot_right">
+                <ul>
+                    <li>
+                        <img src=" images/msc_app.png"><br/>
+                        手机客户端
+                    </li>
+                    <li>
+                        <img src=" images/msc_app.png"><br/>
+                        微信公众号
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
